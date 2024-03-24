@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ace Academy</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/section2.css">
+  <link rel="stylesheet" href="css/section3.css">
+  <link rel="stylesheet" href="css/section4.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Margarine&family=Unica+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="head">
+    <div class="logo"><a class="logot" href="index.html">Ace Academy</a></div>
+    <input type="checkbox" id="nav_check" hidden>
+    <nav>
+        <ul>
+            <li><a href="#section1" class="active">Home</a></li>
+            <li><a href="#section4">Classes</a></li>
+            <li><a href="enroll.html">Enroll Now</a></li>
+        </ul>
+    </nav>
+    <label for="nav_check" class="hamb">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+  </header>
+
+  <div class="section1">
+    <p class="herotxt">LEARNING</p>
+  </div>
+
+  <div class="section2">
+    <h2 class="sec2t1">Enroll Now</h2>
+    <h4 class="sec2t2">Enlist in your adventure of becoming a mastermind.<br> Let the learning begin!</h4>
+    <a href="enroll.html" target="_blank"><button id="enrollbtns" class="enrollbtn">Start Learning</button></a>
+  </div>
+
+ <!--links ssection starts here-->
+ <section class="section4" id="section4"><span class="sm">
+  <h2 class="subhead">Classes</h2>
+  <img class="addbtn" id="addlink" src="images/add.svg" onclick="createCard()"></span>
+  
+  <div class="containers" id="containers">
+    <div class="linkcards">
+      <p class="subname">Mathemaics</p>
+      <p class="ano">Timings: 11AM-2PM</p>
+      <p class="ano">By: Jiraiya</p>
+      <p class="ano"><a href="">Join now</a></p>
+    </div>
+    <div class="linkcards">
+      <p class="subname">Physics</p>
+      <p class="ano">Timings: 2PM-5PM</p>
+      <p class="ano">By: Shankss</p>
+      <p class="ano"><a href="">Join now</a></p>
+    </div>
+    <div class="linkcards">
+      <p class="subname">English</p>
+      <p class="ano">Timings: 9AM-12PM</p>
+      <p class="ano">By: Tsunade</p>
+      <p class="ano"><a href="">Join now</a></p>
+    </div>
+    <div class="linkcards">
+      <p class="subname">Telugu</p>
+      <p class="ano">Timings: 10AM-12PM</p>
+      <p class="ano">By: Unknown</p>
+      <p class="ano"><a href="">Join now</a></p>
+    </div>
+  </div>
+</section>
+<!--links ssection ends here-->
+
+  <div class="sect3">
+    <div class="cards">
+      <img src="images/test1.png">
+      <h3 class="testmntxt">A fantastic learning experience, the courses are a pleasure</h3>
+      <h4 class="nametest">Luffy</h4>
+    </div>
+    <div class="cards">
+      <img src="images/test2.png">
+      <h3 class="testmntxt">Engaging content, my child looks forward to every session</h3>
+      <h4 class="nametest">Zoro</h4>
+    </div>
+    <div class="cards">
+      <img src="images/test3.png">
+      <h3 class="testmntxt">User-friendly and accessible, a unique learning experience</h3>
+      <h4 class="nametest">Naruto</h4>
+    </div>
+    <div class="cards">
+      <img src="images/text4.png">
+      <h3 class="testmntxt">Each one's a delightful journey through realms of knowledge!</h3>
+      <h4 class="nametest">Sanji</h4>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="i1">
+      <img src="images/facebook.svg"  class="i">
+      <img src="images/instagram.svg"  class="i">
+      <img src="images/x-twitter.svg"  class="i">
+    </span>
+    <p class="sign" id="sign"><a onclick="checks()">Join as a tutor</a></p>
+    <p>© 2024 made by rexiy</p>
+    <p>Hosted on: Thursday, March 23, 2024</p>
+  </div>
+
+  <script src="javascript/sect4.js"></script>
+  <script src="javascript/link.js"></script>
+
+</body>
+</html>

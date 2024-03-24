@@ -1,0 +1,56 @@
+
+.herocon1{
+    padding-top: 3rem ;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container1{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 30vw;
+    height: 20vw;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    overflow: hidden;
+}
+.container1 input{
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 10px;
+	border: none;
+    background-color: whitesmoke;
+	border-bottom: 1px solid #c7c7c7;
+	font-size: 16px;
+	outline: none;
+    overflow: hidden;
+}
+.container1 button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.sp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container1 button:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: whitesmoke;
+}

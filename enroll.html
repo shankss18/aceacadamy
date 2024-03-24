@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now</title>
+
+    <link rel="stylesheet" href="css/enroll.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&family=Unica+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="javascript/enr.js"></script>
+
+</head>
+<body>
+    
+    <header class="head">
+        <div class="logo"><a class="logot">Ace Academy</a></div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="enroll.html">Enroll Now</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamb">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+    
+    <section class="herocon">
+        <div class="container">
+            <form action="">
+                <input type="text" placeholder="name.." required id="name">
+                <input type="number" placeholder="phone numer.." required id="phnnum">
+                <input type="email" placeholder="gmail.." required id="email">
+                <input type="text" placeholder="address.." required id="address">
+                <input type="number" placeholder="class.." required id="class">
+                <input type="text" placeholder="subject.." required id="subject">
+                <span class="sp"><button type="submit" onclick="sendMail()">Enroll</button></span>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

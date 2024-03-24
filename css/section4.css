@@ -1,0 +1,96 @@
+*{
+    font-family: spline sans mono;
+}
+.margarine-regular {
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.section4{
+    height: max-content;
+    width: 100%;
+    background-color: white;
+    padding: 3rem 5rem;
+}
+.containers{
+    padding: 2rem 3rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: start;
+}
+.subhead{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: #333333;
+}
+.linkcards{
+    font-family: Margarine;
+    height: 30vh;
+    width: calc(25% - 20px);
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+}
+@media screen and (max-width: 900px) {
+  .linkcards {
+    width: calc(50% - 20px); 
+  }
+  .containers{
+    padding: 2rem 2rem;
+  }
+}
+  @media screen and (max-width: 700px) {
+    .linkcards {
+      width: calc(50% - 20px); 
+      padding: 1em 1em;
+      height: max-content;
+
+    }
+    .containers{
+      padding: 2rem 0;
+      justify-content: center;
+    }
+    .section4{
+      padding: 2rem 1rem;
+    }
+
+}
+.subname{
+    font-size: 16px;
+    color: black;
+}
+.ano{
+    font-size: 12px;
+    color: #333333;
+}
+.ano a{
+    text-decoration: underline;
+    color: #333333;
+}
+.addbtn{
+    height: 20px;
+    width: 20px;
+    display: none;
+}
+.sm{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.sign{
+    cursor: pointer;
+}
+.sign a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,112 @@
+.sect3{
+    background-color: #f0f2f5;
+    font-family: Spline Sans Mono;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #E1E5EB;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    padding: 40px 40px;
+    padding-bottom: 0;
+    gap: 20px;
+}
+.testmntxt{
+    font-size: 20px;
+    font-weight: 200;
+}
+.nametest{
+    font-size: 12px;
+    font-weight: 150;
+}
+.cards img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .sect3{
+        padding: 1rem 2rem;
+        gap: 1.5rem;
+        padding-top: 3rem;
+    }
+    .cards{
+        width: 50vh;
+        height: 250px;
+        gap: 10px;
+    }
+    .testmntxt{
+        font-size: 14px;
+    }
+    .nametest{
+        font-size: 10px;
+    }
+    .cards img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sect3{
+        flex-direction: column;
+        padding: 2rem 1rem;
+        justify-content: start;
+        gap: 10px;
+
+    }
+    .cards{
+        width: 90%;
+        height: 200px;
+        gap: 15px;
+    }
+    .testmntxt{
+        font-size: 14px;
+    }
+    .nametest{
+        font-size: 12px;
+    }
+    .cards img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: Spline Sans Mono;
+    width: 100%;
+    padding: 2rem 8rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.footer .i{
+    height: 20px;
+    width: 20px;
+}
+.i1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    gap: 20px;
+}
+.footer p{
+    text-align: center;
+    font-size: 8px;
+    font-family: 100;
+    margin-top: 10px;
+}
